@@ -23,6 +23,26 @@ public class HomeController : Controller
         return View();
     }
 
+    public IActionResult PraktiskaLivet()
+    {
+        return View();
+    }
+
+    public IActionResult Barnomsorg()
+    {
+        return View();
+    }
+
+    public IActionResult Boende()
+    {
+        return View();
+    }
+
+    public IActionResult Gemenskapen()
+    {
+        return View();
+    }
+
     [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
     public IActionResult Error()
     {

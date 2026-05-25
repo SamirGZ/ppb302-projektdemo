@@ -1,0 +1,87 @@
+@{
+    ViewData["Title"] = "Gemenskapen på ön";
+}
+
+<article class="detail-page">
+    <header class="detail-header detail-header--sage">
+        <div class="detail-header-inner">
+            <a class="detail-back" asp-controller="Home" asp-action="Index">← Tillbaka till startsidan</a>
+            <div class="detail-header-titles">
+                <h1>Gemenskapen på ön</h1>
+                <p class="detail-lead">– Ett socialt liv i harmoni med naturen</p>
+            </div>
+        </div>
+    </header>
+
+    <div class="detail-body">
+        <section class="detail-section">
+            <div class="detail-section-inner detail-section-inner--media-right">
+                <div class="detail-text">
+                    <h2>En levande skärgård</h2>
+                    <p>
+                        På Koster är gemenskapen och det sociala livet i stort fokus. Genom naturnära aktiviteter
+                        och gemensamma mötesplatser är Kosteröarna en levande skärgård. Här erbjuds en rofylld
+                        miljö där natur och nära relationer står i centrum.
+                    </p>
+                    <p>
+                        Engagerade öbor driver föreningar, evenemang och initiativ som håller öarna levande –
+                        särskilt viktigt när vinterhalvåret är lugnare och gemenskapen blir ännu mer betydelsefull.
+                    </p>
+                </div>
+                <div class="detail-media">
+                    <img src="~/images/img5.jpg" alt="Människor som sitter tillsammans vid solnedgång" asp-append-version="true" loading="lazy" />
+                </div>
+            </div>
+        </section>
+
+        <section class="detail-section detail-section--light">
+            <div class="detail-section-inner">
+                <div class="detail-text detail-text--full">
+                    <h2>Mötesplatser och aktiviteter</h2>
+                    <p>
+                        Från gemensamma sammankomster till utomhusaktiviteter finns många sätt att lära känna
+                        öborna. Nya som flyttar hit uppskattar ofta hur snabbt man blir en del av nätverket –
+                        särskilt om man engagerar sig i lokala sammanhang.
+                    </p>
+                    <ul class="detail-list">
+                        <li>Föreningar och ideella initiativ på öarna</li>
+                        <li>Naturnära aktiviteter året runt</li>
+                        <li>En kultur av att hjälpas åt och ta hand om varandra</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="detail-section">
+            <div class="detail-section-inner">
+                <div class="detail-text detail-text--full">
+                    <h2>Att komma in i gemenskapen</h2>
+                    <p>
+                        Som ny på öarna kan det ta tid att hitta sin plats – precis som någon annanstans. Skillnaden
+                        är ofta att avstånden är korta och att människor känner varandra. Att visa intresse, ställa
+                        frågor och delta i det som händer är det bästa sättet att komma in.
+                    </p>
+                    <p>
+                        Många som flyttar hit beskriver en känsla av att äntligen få andas ut – med havet nära
+                        och en gemenskap som bär genom både vardag och högtider.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="detail-section detail-section--sage">
+            <div class="detail-section-inner">
+                <div class="detail-text detail-text--full">
+                    <h2>Vill du veta mer?</h2>
+                    <p>
+                        Utforska personliga berättelser från öbor som redan flyttat hit, eller ta kontakt om du
+                        vill prata om hur livet i gemenskap på Kosteröarna kan se ut för dig.
+                    </p>
+                    <div class="detail-actions">
+                        <a class="btn-read-more" asp-controller="Home" asp-action="Index" asp-fragment="kontakt">Kontakta oss</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+</article>

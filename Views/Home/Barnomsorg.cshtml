@@ -1,0 +1,87 @@
+@{
+    ViewData["Title"] = "Barnomsorg";
+}
+
+<article class="detail-page">
+    <header class="detail-header detail-header--sage">
+        <div class="detail-header-inner">
+            <a class="detail-back" asp-controller="Home" asp-action="Index">← Tillbaka till startsidan</a>
+            <div class="detail-header-titles">
+                <h1>Barnomsorg</h1>
+                <p class="detail-lead">– Trygg omsorg och skola för familjer på Kosteröarna</p>
+            </div>
+        </div>
+    </header>
+
+    <div class="detail-body">
+        <section class="detail-section">
+            <div class="detail-section-inner detail-section-inner--media-right">
+                <div class="detail-text">
+                    <h2>En lugn och trygg miljö</h2>
+                    <p>
+                        Här finns pedagogisk omsorg som skapar en lugn och trygg miljö för barn mellan 1–6 år.
+                        Där får de i sin egen takt lära sig umgås, respektera och hjälpa varandra.
+                    </p>
+                    <p>
+                        Stort fokus ligger på att vara ute i naturen och att barnen ska få chansen att utforska
+                        världen med egna ögon – med havet, klipporna och skärgården som en naturlig del av
+                        vardagen.
+                    </p>
+                </div>
+                <div class="detail-media">
+                    <img src="~/images/img1.jpg" alt="Barn i ett blommande ängslandskap" asp-append-version="true" loading="lazy" />
+                </div>
+            </div>
+        </section>
+
+        <section class="detail-section detail-section--light">
+            <div class="detail-section-inner">
+                <div class="detail-text detail-text--full">
+                    <h2>Utomhus och natur varje dag</h2>
+                    <p>
+                        På Kosteröarna blir naturen en del av barnens lek och lärande. Oavsett väder finns
+                        möjlighet att vara ute – på stranden, i skogen eller på öarnas stigar och ängar.
+                    </p>
+                    <ul class="detail-list">
+                        <li>Pedagogik med fokus på rörelse, nyfikenhet och gemenskap</li>
+                        <li>Närhet till hav, klippor och skärgårdsmiljö</li>
+                        <li>Små grupper där varje barn syns och får tid</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="detail-section">
+            <div class="detail-section-inner">
+                <div class="detail-text detail-text--full">
+                    <h2>Skola och framtid</h2>
+                    <p>
+                        För familjer som funderar på att flytta hit är skola och barnomsorg ofta avgörande.
+                        Engagerade öbor och föreningar arbetar för att stärka utbildning och omsorg på öarna –
+                        så att fler kan välja att bo här året runt.
+                    </p>
+                    <p>
+                        Vill du veta mer om hur vardagen fungerar för barnfamiljer? Prata gärna med oss eller
+                        ta kontakt med lokala aktörer som kan berätta mer utifrån sina egna erfarenheter.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="detail-section detail-section--sage">
+            <div class="detail-section-inner">
+                <div class="detail-text detail-text--full">
+                    <h2>Flytta hit med barn?</h2>
+                    <p>
+                        Att flytta till Koster med barn handlar om mer än bara en vacker miljö – det handlar om
+                        gemenskap, trygghet och en vardag där naturen alltid finns nära. Vi hjälper dig gärna att
+                        hitta svar på dina frågor.
+                    </p>
+                    <div class="detail-actions">
+                        <a class="btn-read-more" asp-controller="Home" asp-action="Index" asp-fragment="kontakt">Kontakta oss</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+</article>

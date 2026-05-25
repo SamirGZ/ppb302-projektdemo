@@ -26,9 +26,9 @@
 
             <nav class="main-nav" id="main-nav" aria-label="Huvudmeny">
                 <div class="nav-group nav-group--center">
+                    <a href="#praktiska-livet">Praktiska Livet</a>
                     <a href="#barnomsorg">Barnomsorg</a>
                     <a href="#boende">Boende</a>
-                    <a href="#praktiska-livet">Praktiska Livet</a>
                     <a href="#gemenskapen">Gemenskapen</a>
                 </div>
                 <div class="nav-group nav-group--right">
@@ -42,6 +42,26 @@
     <main>
         @RenderBody()
     </main>
+
+    <footer class="site-footer">
+        <div class="footer-inner">
+            <nav class="footer-nav" aria-label="Sidfotslänkar">
+                <a href="#johans-berattelse">Personliga berättelser</a>
+                <a href="#barnomsorg">Barnomsorg</a>
+                <a href="#praktiska-livet">Praktiska livet</a>
+                <a href="#boende">Boende</a>
+                <a href="#gemenskapen">Gemenskapen</a>
+            </nav>
+            <p class="footer-tagline">
+                Kosteröarna är mer än en plats – det är ett sätt att leva. Här möts människor och historier
+                på en ö med släta klippor och salt vatten.
+            </p>
+            <a class="logo logo--footer" asp-controller="Home" asp-action="Index">
+                <span class="logo-line">Flytta till</span>
+                <span class="logo-name">Koster</span>
+            </a>
+        </div>
+    </footer>
 
     <script src="~/js/site.js" asp-append-version="true"></script>
     @await RenderSectionAsync("Scripts", required: false)

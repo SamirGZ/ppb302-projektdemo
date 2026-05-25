@@ -1,0 +1,129 @@
+@{
+    ViewData["Title"] = "Boende";
+}
+
+<article class="detail-page">
+    <header class="detail-header detail-header--sage">
+        <div class="detail-header-inner">
+            <a class="detail-back" asp-controller="Home" asp-action="Index">← Tillbaka till startsidan</a>
+            <div class="detail-header-titles">
+                <h1>Boende</h1>
+                <p class="detail-lead">– Hitta ett hem där havet är din granne</p>
+            </div>
+        </div>
+    </header>
+
+    <div class="detail-body">
+        <section class="detail-section">
+            <div class="detail-section-inner detail-section-inner--media-right">
+                <div class="detail-text">
+                    <h2>Havet som granne</h2>
+                    <p>
+                        Kosteröarna ger dig möjligheten att få havet som granne. Här samlas alla människor –
+                        unga som gamla – för att bo och leva. Med naturen alldeles intill blir dagarna lugna
+                        samtidigt som livet på ön ger glädje och energi året om.
+                    </p>
+                    <p>
+                        Boendet här kan se olika ut: sommarstuga, åretruntboende eller en längre period av
+                        utforskning innan du bestämmer dig. Marknaden varierar med säsong, och det lönar sig
+                        att besöka öarna vid olika tidpunkter på året.
+                    </p>
+                </div>
+                <div class="detail-media">
+                    <img src="~/images/img2.jpg" alt="Båtar och brygga i en skärgårdshamn" asp-append-version="true" loading="lazy" />
+                </div>
+            </div>
+        </section>
+
+        <section class="detail-section detail-section--light">
+            <div class="detail-section-inner">
+                <div class="detail-text detail-text--full">
+                    <h2>Bostäder på öarna</h2>
+                    <p>
+                        På Nordkoster och Sydkoster finns en blandning av äldre hus, stugor och bostäder som
+                        passar olika behov. Många drömmer om närheten till havet och den lugna rytmen – andra
+                        söker en plats att landa i efter många år i stan.
+                    </p>
+                    <ul class="detail-list">
+                        <li>Hyresrätter, köp och andrahandsmöjligheter förekommer</li>
+                        <li>Utbudet skiljer sig mellan sommar och vinter</li>
+                        <li>Personbilar är inte tillåtna – cykel och elbil är vanligast</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="detail-section detail-section--listing" aria-labelledby="listing-title">
+            <div class="detail-section-inner">
+                <h2 id="listing-title" class="listing-section-title">Aktuellt i utbudet</h2>
+                <article class="listing-ad">
+                    <div class="listing-ad-image">
+                        <img src="~/images/img6.jpg" alt="Rött trähus nära havet på Sydkoster" asp-append-version="true" loading="lazy" />
+                    </div>
+                    <div class="listing-ad-details">
+                        <p class="listing-location">Sydkoster</p>
+                        <h3 class="listing-title">Sekelskifteshus med havsutsikt</h3>
+                        <p class="listing-price">4&nbsp;950&nbsp;000 kr</p>
+                        <dl class="listing-meta">
+                            <div>
+                                <dt>Boarea</dt>
+                                <dd>120 kvm</dd>
+                            </div>
+                            <div>
+                                <dt>Rum</dt>
+                                <dd>5 rum</dd>
+                            </div>
+                            <div>
+                                <dt>Typ</dt>
+                                <dd>Åretruntboende</dd>
+                            </div>
+                            <div>
+                                <dt>Avstånd till hamn</dt>
+                                <dd>5 min cykel</dd>
+                            </div>
+                        </dl>
+                        <p class="listing-description">
+                            Charmigt hus i skärgårdsmiljö med närhet till hamn, butik och badklippor. Uppvärmda
+                            torpgolv, vedspis i vardagsrum och stor altan mot söder. Perfekt för dig som vill bo
+                            nära havet året runt. <em>Exempelannons – inte en riktig bostad.</em>
+                        </p>
+                        <a class="btn-read-more listing-cta" asp-controller="Home" asp-action="Index" asp-fragment="kontakt">Visa intresse</a>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section class="detail-section">
+            <div class="detail-section-inner">
+                <div class="detail-text detail-text--full">
+                    <h2>Att tänka på innan flytten</h2>
+                    <p>
+                        Innan du bestämmer dig är det klokt att besöka öarna flera gånger, prata med öbor och
+                        få en känsla för hur vardagen fungerar. Färja, service och säsongsvariation påverkar
+                        hur det är att bo här – på gott och ont.
+                    </p>
+                    <p>
+                        Vi rekommenderar att du kombinerar egna besök med att ställa frågor till lokala
+                        föreningar och företag som kan ge dig en ärlig bild av möjligheterna.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="detail-section detail-section--sage">
+            <div class="detail-section-inner">
+                <div class="detail-text detail-text--full">
+                    <h2>Nästa steg</h2>
+                    <p>
+                        Oavsett om du söker ett permanent hem eller en plats att börja utforska livet på
+                        öarna, finns det stöd att få. Ta kontakt så hjälper vi dig vidare med information
+                        och kontakter.
+                    </p>
+                    <div class="detail-actions">
+                        <a class="btn-read-more" asp-controller="Home" asp-action="Index" asp-fragment="kontakt">Kontakta oss</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+</article>

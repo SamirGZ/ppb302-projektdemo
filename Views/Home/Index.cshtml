@@ -4,7 +4,7 @@
 
 <section class="hero" aria-labelledby="hero-title">
     <div class="hero-bg">
-        <img src="~/images/hero-koster.png" alt="Kustlandskap med klippor, strand och hav vid Kosteröarna" asp-append-version="true" />
+        <img src="~/images/img4.jpg" alt="Kustlandskap med klippor, strand och hav vid Kosteröarna" asp-append-version="true" />
     </div>
     <div class="hero-overlay" aria-hidden="true"></div>
     <div class="hero-content">
@@ -18,41 +18,125 @@
 
 <section class="features" aria-label="Utforska Kosteröarna">
     <div class="features-grid">
-        <article class="feature-card" id="barnomsorg">
+        
+        <article class="feature-card">
             <div class="feature-image">
-                <img src="https://images.unsplash.com/photo-1470252649378-9c29740c9fa8?auto=format&fit=crop&w=400&h=400&q=80"
-                     alt="Solnedgång över kustlandskap" width="400" height="400" loading="lazy" />
+                <img src="~/images/img3.jpg"
+                     alt="Vandring på en skogsstig" width="400" height="400" loading="lazy" />
+            </div>
+            <h2>Praktiska Livet</h2>
+            <p>Färja, service och vardagslogistik som fungerar i skärgården.</p>
+        </article>
+        
+        <article class="feature-card">
+            <div class="feature-image">
+                <img src="~/images/img1.jpg"
+                     alt="Barn som leker utomhus" width="400" height="400" loading="lazy"/>
             </div>
             <h2>Barnomsorg</h2>
             <p>Trygg omsorg och skola för familjer som vill rota sig på öarna.</p>
         </article>
 
-        <article class="feature-card" id="boende">
+        <article class="feature-card">
             <div class="feature-image">
-                <img src="https://images.unsplash.com/photo-1441974231531-c6227db76b6e?auto=format&fit=crop&w=400&h=400&q=80"
-                     alt="Människor som vandrar i skogen" width="400" height="400" loading="lazy" />
+                <img src="~/images/img2.jpg"
+                     alt="Båtar i en skärgårdshamn" width="400" height="400" loading="lazy"/>
             </div>
             <h2>Boende</h2>
             <p>Hitta ett hem nära havet – från sommarstuga till boende året runt.</p>
         </article>
-
-        <article class="feature-card" id="praktiska-livet">
+        
+        <article class="feature-card">
             <div class="feature-image">
-                <img src="https://images.unsplash.com/photo-1501854140801-50d01698950b?auto=format&fit=crop&w=400&h=400&q=80"
-                     alt="Ljus som faller genom träd" width="400" height="400" loading="lazy" />
-            </div>
-            <h2>Praktiska Livet</h2>
-            <p>Färja, service och vardagslogistik som fungerar i skärgården.</p>
-        </article>
-
-        <article class="feature-card" id="gemenskapen">
-            <div class="feature-image">
-                <img src="https://images.unsplash.com/photo-1441974231531-c6227db76b6e?auto=format&fit=crop&w=400&h=400&q=80"
-                     alt="Händer som rör vid en trädstam" width="400" height="400" loading="lazy" />
+                <img src="~/images/img5.jpg"
+                     alt="Människor tillsammans vid solnedgång" width="400" height="400" loading="lazy"/>
             </div>
             <h2>Gemenskapen</h2>
             <p>Engagerade öbor, föreningar och ett nätverk som håller öarna levande.</p>
         </article>
+        
+    </div>
+</section>
+
+<section class="content-block content-block--sage" id="praktiska-livet" aria-labelledby="praktiska-livet-title">
+    <div class="content-block-inner">
+        <div class="content-block-media">
+            <img src="~/images/img3.jpg"
+                 alt="Vuxen och barn som går på en stig i skogen" width="900" height="675" loading="lazy" />
+        </div>
+        <div class="content-block-copy">
+            <h2 id="praktiska-livet-title">Det praktiska livet</h2>
+            <p class="content-block-lead">– Hur är det egentligen att bo på Kosteröarna året om?</p>
+            <p>
+                Det praktiska livet på ön rör sig i takt med havet och årstiderna. Vardagen formas av människorna, gemenskapen och lugnet. Men självklart finns det också funderingar över hur vardagspusslet ska gå ihop om man vill leva ett liv på ön, och det finns kanske inte alltid ett bra svar. Men vi som bor här vet att det är fullt möjligt - och att det är värt det.
+            </p>
+            <a class="btn-read-more" asp-controller="Home" asp-action="PraktiskaLivet">Läs mer</a>
+        </div>
+    </div>
+</section>
+
+<section class="content-block content-block--light" id="barnomsorg" aria-labelledby="barnomsorg-title">
+    <div class="content-block-inner">
+        <div class="content-block-copy">
+            <h2 id="barnomsorg-title">Barnomsorg</h2>
+            <p>
+                Här finns pedagogisk omsorg som skapar en lugn och trygg miljö för barn mellan 1-6 år. Där får de i sin egen takt lära sig umgås, respektera och hjälpa varandra. Här ligger stort fokus på att vara ute i naturen och att barnen ska få chansen att utforska världen med egna ögon.
+            </p>
+            <a class="btn-read-more" asp-controller="Home" asp-action="Barnomsorg">Läs mer</a>
+        </div>
+        <div class="content-block-media">
+            <img src="~/images/img1.jpg"
+                 alt="Barn i ett blommande ängslandskap" width="900" height="675" loading="lazy" />
+        </div>
+    </div>
+</section>
+
+<section class="content-block content-block--sage" id="boende" aria-labelledby="boende-title">
+    <div class="content-block-inner">
+        <div class="content-block-media">
+            <img src="~/images/img2.jpg"
+                 alt="Båtar och brygga i en skärgårdshamn" width="900" height="675" loading="lazy" />
+        </div>
+        <div class="content-block-copy">
+            <h2 id="boende-title">Boende</h2>
+            <p>
+                Kosteröarna ger dig möjligheten att få havet som granne. Här samlas alla människor - unga som gamla för att bo och leva. Med naturen alldeles intill blir dagarna lugna samtidigt som livet på ön ger glädje och energi året om.
+            </p>
+            <a class="btn-read-more" asp-controller="Home" asp-action="Boende">Läs mer</a>
+        </div>
+    </div>
+</section>
+
+<section class="content-block content-block--light" id="gemenskapen" aria-labelledby="gemenskapen-title">
+    <div class="content-block-inner">
+        <div class="content-block-copy">
+            <h2 id="gemenskapen-title">Gemenskapen på ön</h2>
+            <p>
+                På Koster är gemenskapen och det sociala livet i stort fokus. Genom naturnära aktiviteter och gemensamma mötesplatser är Kosteröarna en levande skärgård. Här erbjuds en rofylld miljö där natur och nära relationer står i centrum
+            </p>
+            <a class="btn-read-more" asp-controller="Home" asp-action="Gemenskapen">Läs mer</a>
+        </div>
+        <div class="content-block-media">
+            <img src="~/images/img5.jpg"
+                 alt="Människor som sitter tillsammans vid solnedgång" width="900" height="675" loading="lazy" />
+        </div>
+    </div>
+</section>
+
+<section class="testimonial" id="johans-berattelse" aria-labelledby="johan-title">
+    <div class="testimonial-inner">
+        <div class="testimonial-image">
+            <img src="~/images/img8.jpg"
+                 alt="Johan med sina barn" width="500" height="500" loading="lazy" />
+        </div>
+        <div class="testimonial-copy">
+            <h2 id="johan-title">Johan, 42 år</h2>
+            <p class="testimonial-quote">
+                &ldquo;Att flytta till Koster var det bästa vi gjort. Närheten till naturen och lugnet på ön
+                var precis det vi var ute efter&rdquo;
+            </p>
+            <a class="testimonial-link" href="#johans-berattelse">Läs Johans berättelse</a>
+        </div>
     </div>
 </section>
 
@@ -66,10 +150,32 @@
     </div>
 </section>
 
-<section class="info-strip info-strip--contact" id="kontakt" aria-labelledby="kontakt-title">
-    <div class="info-strip-inner">
-        <h2 id="kontakt-title">Kontakt</h2>
-        <p>Hör av dig om du vill veta mer om livet, boendet och möjligheterna på öarna.</p>
-        <a class="contact-link" href="mailto:info@flyttatillkoster.se">info@flyttatillkoster.se</a>
+<section class="contact-cta" id="kontakt" aria-labelledby="kontakt-title">
+    <div class="contact-cta-inner">
+        <h2 id="kontakt-title">Kontakta oss</h2>
+        <p>Vill du veta mer om livet på Koster? Ta kontakt med oss.</p>
+        <ul class="contact-details">
+            <li>
+                <span class="contact-label">Telefon</span>
+                <a href="tel:+46526123456">0526-123 456</a>
+            </li>
+            <li>
+                <span class="contact-label">E-post</span>
+                <a href="mailto:info@flyttatillkoster.se">info@flyttatillkoster.se</a>
+            </li>
+            <li>
+                <span class="contact-label">E-post (frågor om boende)</span>
+                <a href="mailto:boende@flyttatillkoster.se">boende@flyttatillkoster.se</a>
+            </li>
+        </ul>
+    </div>
+</section>
+
+<section class="sponsor" aria-label="Webbyrå och hostingpartner">
+    <div class="sponsor-inner">
+        <p class="sponsor-text">Webbyrå och hostingpartner</p>
+        <a class="sponsor-logo" href="https://iosoft.se" target="_blank" rel="noopener noreferrer">
+            <img src="~/images/iosoftlogo.png" alt="iosoft" asp-append-version="true" />
+        </a>
     </div>
 </section>
