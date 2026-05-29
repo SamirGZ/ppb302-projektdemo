@@ -26,14 +26,14 @@
 
             <nav class="main-nav" id="main-nav" aria-label="Huvudmeny">
                 <div class="nav-group nav-group--center">
-                    <a href="#praktiska-livet">Praktiska Livet</a>
-                    <a href="#barnomsorg">Barnomsorg</a>
-                    <a href="#boende">Boende</a>
-                    <a href="#gemenskapen">Gemenskapen</a>
+                    <a asp-controller="Home" asp-action="PraktiskaLivet">Praktiska Livet</a>
+                    <a asp-controller="Home" asp-action="Barnomsorg">Barnomsorg</a>
+                    <a asp-controller="Home" asp-action="Boende">Boende</a>
+                    <a asp-controller="Home" asp-action="Gemenskapen">Gemenskapen</a>
                 </div>
                 <div class="nav-group nav-group--right">
-                    <a href="#om-oss">Om oss</a>
-                    <a href="#kontakt">Kontakt</a>
+                    <a asp-controller="Home" asp-action="Index" asp-fragment="om-oss">Om oss</a>
+                    <a asp-controller="Home" asp-action="Index" asp-fragment="kontakt">Kontakt</a>
                 </div>
             </nav>
         </div>
